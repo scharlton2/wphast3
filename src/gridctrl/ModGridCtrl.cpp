@@ -120,6 +120,7 @@ void AFXAPI DDX_TextGridControl_Safe(CDataExchange* pDX, int nIDC, int nRow, int
 	}
 }
 
+// added 6
 void AFXAPI DDX_TextGridControl(CDataExchange* pDX, int nIDC, int nRow, int nCol, CString& value)
 {
 	pDX->PrepareCtrl(nIDC);
