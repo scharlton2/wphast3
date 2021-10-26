@@ -47,7 +47,7 @@ void AFXAPI DDX_GridControlFail(CDataExchange* pDX, int nIDC, int nMinRow, int n
 	}
 }
 
-
+// added 3
 void AFXAPI DDX_GridControlFail(CDataExchange* pDX, int nIDC, int nRow, int nCol, UINT nIDText)
 {
 	CString string;
