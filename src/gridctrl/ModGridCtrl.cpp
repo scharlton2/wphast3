@@ -22,6 +22,7 @@ void AFXAPI DDX_GridControlFail(CDataExchange* pDX, int nIDC, int nRow, int nCol
 	}
 }
 
+// added 2
 void AFXAPI DDX_GridControlFail(CDataExchange* pDX, int nIDC, int nMinRow, int nMinCol, int nMaxRow, int nMaxCol, LPCTSTR lpszText)
 {
 	CModGridCtrl* pGrid = static_cast<CModGridCtrl*>(pDX->m_pDlgWnd->GetDlgItem(nIDC));
